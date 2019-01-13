@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>test</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="normalize.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+       <div class="container">
+           <form>
+             <h2>Основная информация</h2>
+             <p class="info">Sed ut perspiciatis, <a href="">unde omnis iste</a> natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+             <div class="inputs3">
+                 <div class="inputl">
+                     <input id="inpl" type="text" placeholder="Введите название"><label for="inpl">Название группы</label>
+                 </div>
+                 <div class="inputc">
+                     <input id="inpl" type="text" placeholder="Введите ФИО"><label for="inpl">ФИО ответственного</label>
+                 </div>                 
+                 <div class="inputr">
+                     <input id="inpl" type="text" placeholder="Введите email"><label for="inpl">Email для входа</label>
+                 </div>                 
+             </div>
+             <div class="txtarea">
+                 <p>Описание рабочей группы</p>
+                 <textarea placeholder="Введите краткое и емкое описание для рабочей группы"></textarea>
+             </div>
+             <div class="buttons">
+                 <input class="but_subm" type="submit" value="Сохранить">
+                 <input class="but_rst" type="reset" value="Отмена">
+             </div>
+           </form>
+           
+           <div class="notifications">
+             <h2>Управление уведомлениями</h2>
+             <div class="alert">
+               <div class="icon"><i class="material-icons md-36">warning</i></div>
+               <div class="txt">
+                 <h2>Внимание!</h2>  
+                 <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. nemo enim ipsam voluptatem.</p>
+               </div>
+             </div>
+             <div class="panels">
+                 <div class="outer_panel_tlg">
+                     <div class="inner_panel"><div class="pnl_img"><img src="tlg.png"></div><div class="pnl_onln">&#x2022; </div><div class="pnltxt1"> Telegram</div></div>
+                   <button>Отключить аккаунт</button>
+                   <div class="chkbox"><i class="material-icons">check_box</i> Только служебные</div>
+                 </div>
+                 <div class="outer_panel_icq">
+                   <div class="inner_panel"><div class="pnl_img"><img src="icq.png"></div><div class="pnltxt2">ICQ</div></div>
+                   <div class="copy"><div class="cpytxt">1. Скопируйте команду авторизации</div> <div class="cpyicon"><i class="material-icons">file_copy</i></div></div>
+                     <div class="copy"><div class="cpytxt">2. Перейдите в чат и отправьте команду боту</div><div class="cpyicon"><i class="material-icons">file_copy</i></div></div>                     
+                 </div>   
+                 <div class="outer_panel_skp">
+                   <div class="inner_panel"><div class="pnl_img"><img src="skp.png"></div><div class="pnltxt2">Skype</div></div>
+                   <div class="copy"><div class="cpytxt">1. Скопируйте команду авторизации</div> <div class="cpyicon"><i class="material-icons">file_copy</i></div></div>
+                     <div class="copy"><div class="cpytxt">2. Перейдите в чат и отправьте команду боту</div><div class="cpyicon"><i class="material-icons">file_copy</i></div></div>                     
+                 </div>    
+                 <div class="outer_panel_slk">
+                   <div class="inner_panel"><div class="pnl_img"><img src="slk.png"></div><div class="pnl_onln">&#x2022; </div><div class="pnltxt1"> Slack</div></div>
+                   <button>Отключить аккаунт</button>
+                   <div class="chkbox_off"><i class="material-icons">check_box_outline_blank</i> Только служебные</div>
+                 </div>
+             </div>
+           </div>
+       </div>
+    </body>
+</html>
